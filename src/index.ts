@@ -23,7 +23,7 @@ app.use(hpp());
 app.use(helmet());
 app.use(compression());
 //! Commant below line for LOCALHOST -or- HTTP
-// app.use(enforce.HTTPS({ trustProtoHeader: true }));
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 // app.use(csurf());
 
