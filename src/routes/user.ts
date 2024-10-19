@@ -58,7 +58,7 @@ router.delete("/friend/:friendId", userController.removeFriend);
 
 //? Friend Request Routes
 
-//* Fetch all Friends Connection Requests [GET /user/friend/request]
+//* Fetch all Friend Requests [GET /user/friend/request]
 router.get("/friend/request", userController.fetchAllFriendRequests);
 // Query: type = sent | received | all
 
